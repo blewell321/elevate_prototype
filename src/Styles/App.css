@@ -1,15 +1,30 @@
-.body{
-  background-color: slateblue;
+.app{
+  max-width: 1280px;
+  margin: 0 auto;
+  font-size: 22px;
+  /* background: linear-gradient(to bottom left, #216E93, #21648A, #1F5881, #172D5B, #191C51); */
+  background-color:rgba(69, 65, 78, 0.08);
+}
+
+.dark{
+  max-width: 1280px;
+  margin: 0 auto;
+  font-size: 22px;
+  background: linear-gradient(to bottom left, #216E93, #21648A, #1F5881, #172D5B, #191C51);
+  /* background-color:rgba(69, 65, 78, 0.08); */
 }
 
 .content-area {
   max-width: 1280px;
   margin: 0 auto;
   font-size: 22px;
+  /* background: linear-gradient(to bottom left, #216E93, #21648A, #1F5881, #172D5B, #191C51); */
+  /* background-color:rgba(69, 65, 78, 0.08); */
 }
 
 .box {
-  background-color: #2B2D3E;
+  /* background-color: rgb(29, 27, 65); */
+  background-color: #fff;
   padding: 25px 20px;
 }
 
@@ -27,14 +42,14 @@
 
 .sparkboxes .box .details {
   position: absolute;
-  color: #fff;
+  color: #000;
   transform: scale(0.7) translate(-22px, 20px);
 }
 .sparkboxes strong {
   position: relative;
   z-index: 3;
   top: -8px;
-  color: #fff;
+  color: #000;
 }
 
 
